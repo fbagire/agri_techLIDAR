@@ -12,6 +12,7 @@ import urllib.request
 import json
 import warnings
 import matplotlib.pyplot as plt
+import geopandas
 
 warnings.filterwarnings("ignore")
 
