@@ -8,7 +8,8 @@ import richdem as rd
 import rasterio
 import math
 from branca.element import Figure
-import urllib.request, json
+import urllib.request
+import json
 import warnings
 import matplotlib.pyplot as plt
 

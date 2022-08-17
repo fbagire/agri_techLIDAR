@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 warnings.filterwarnings("ignore")
 import sys
 
-from scripts import util
+import util
 
 utility = util.Util()
 
