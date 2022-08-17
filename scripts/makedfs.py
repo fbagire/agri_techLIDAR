@@ -103,7 +103,7 @@ class Pypoint:
             request = utility.modify_pipe_json(json_location, furl, path, epsg[0], epsg[1], polygon, bounds[i])
             pipe = pdal.Pipeline(json.dumps(request))
             num = pipe.execute()
-            print(f"Number of loadded points: {num}")
+            print(f"Number of loaded points: {num}")
             df = self.generate_geo_df(pipe.arrays[0], epsg[1])
             data["year"] = f"{year}"
             data["data"] = df
